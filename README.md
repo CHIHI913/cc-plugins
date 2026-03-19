@@ -1,15 +1,9 @@
 # cc-plugins
 
-Claude Code plugins collection.
+Claude Code のプラグイン集。
 
-## Plugins
+## プラグイン一覧
 
-| Plugin | Description |
-|--------|------------|
-| [discovery-workflow](./discovery-workflow/) | ディスカバリーフェーズ（リーンキャンバス〜ブランドコンセプト）のワークフローガイド・テンプレート・Miro自動転記 |
-
-## Installation
-
-```bash
-claude plugin add github:CHIHI913/cc-plugins/discovery-workflow
-```
+| プラグイン | 概要 | インストール |
+|-----------|------|-------------|
+| [discovery-workflow](./discovery-workflow/) | ディスカバリーフェーズの対話的フレームワーク作成 + Miro自動転記（15スキル） | `claude plugin add github:CHIHI913/cc-plugins/discovery-workflow` |
