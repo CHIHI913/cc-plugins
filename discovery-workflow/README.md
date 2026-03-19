@@ -38,7 +38,7 @@ How層
 ```bash
 # Claude Code 内で実行
 /plugin marketplace add CHIHI913/cc-plugins
-/plugin install discovery-workflow@CHIHI913-cc-plugins
+/plugin install discovery-workflow@cc-plugins
 ```
 
 ## スキル一覧（15スキル）
