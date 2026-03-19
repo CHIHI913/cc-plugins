@@ -13,7 +13,7 @@
 プラグインをインストール：
 
 ```
-/plugin install <プラグイン名>@cc-plugins
+/plugin install discovery-workflow@cc-plugins
 ```
 
 ## プラグイン一覧
