@@ -8,13 +8,19 @@
 
 プロダクトの「誰に・何を・なぜ」を検証するディスカバリーフェーズを、Claude Code上で対話的に進めるプラグイン。リーンキャンバスからブランドコンセプトまで10種のフレームワークをテンプレートに沿って作成でき、作成したドキュメントはMiroボードへ自動転記できます。
 
+Claude Code 内で実行：
+
 ```
-# Claude Code 内で実行（初回のみ2行とも実行）
+# 初回のみ：マーケットプレイスを登録
 /plugin marketplace add CHIHI913/cc-plugins
+```
+
+```
+# プラグインをインストール
 /plugin install discovery-workflow@cc-plugins
 ```
 
-マーケットプレイスの追加は初回のみ必要です。2回目以降や別のプラグインを追加する場合は `/plugin install` だけで済みます。
+マーケットプレイスの登録は初回のみです。今後このリポジトリに別のプラグインが追加された場合も、`/plugin install` だけでインストールできます。
 
 <details>
 <summary>スキル一覧（15スキル）</summary>
