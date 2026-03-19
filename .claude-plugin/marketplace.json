@@ -1,12 +1,18 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "cc-plugins",
+  "version": "1.0.0",
+  "description": "Claude Code plugins for product management and workflow automation",
+  "owner": {
+    "name": "Chihiro Sakai",
+    "email": "c_sakai@a-ssign.com"
+  },
   "plugins": [
     {
       "name": "discovery-workflow",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/CHIHI913/cc-plugins.git",
-        "path": "discovery-workflow"
-      }
+      "description": "ディスカバリーフェーズのワークフローガイド・テンプレート・Miro自動転記（15スキル）",
+      "source": "./discovery-workflow",
+      "category": "product-management"
     }
   ]
 }
