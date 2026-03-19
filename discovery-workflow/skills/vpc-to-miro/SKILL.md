@@ -1,11 +1,10 @@
 ---
 name: vpc-to-miro
 description: >
-  MarkdownのVPC（Value Proposition Canvas）をMiroボード上のテンプレートフレームに付箋として自動配置する。
-  VPCの6セクション（Jobs/Pains/Gains/Pain Relievers/Gain Creators/Products & Services）と
-  Deep Diveの4セクション（事実/分析/戦略/提案）をパースし、
-  ラベルに基づく色分け付きでMiro Bulk Create APIで一括作成する。
-  「/vpc-to-miro」「miroにvpcを配置」「vpcをmiroに反映」で起動。
+  MarkdownのVPC（Value Proposition Canvas）を Miro ボード上のテンプレートフレームに付箋として自動配置する。
+  ラベル（📗検証済み/📘事実/💡仮説/⭐新規）に応じた色分けとフェーズ別レイアウトで配置する。
+  VPCを Miro で共有・議論したいとき、VPCの内容をビジュアルに整理したいときに使う。
+  「VPC を Miro に」「Miro に配置」「ボードに反映」といった文脈で積極的に起動すること。
 argument-hint: "file:<VPCファイルパス> board_url:<MiroフレームURL>"
 triggers:
   - /vpc-to-miro

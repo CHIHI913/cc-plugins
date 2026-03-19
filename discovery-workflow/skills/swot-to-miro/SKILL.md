@@ -1,6 +1,10 @@
 ---
 name: swot-to-miro
-description: MarkdownのSWOT分析をMiroボード上のテンプレートフレームに付箋として自動配置する。S（強み）/W（弱み）/O（機会）/T（脅威）の4セクションとクロスSWOT（積極/改善/差別化/防衛）の4戦略をパースし、SWOTマトリクスに記載された要因をlight_pink、それ以外をlight_yellowで配置する。「/swot-to-miro」「miroにSWOTを配置」「SWOTをmiroに反映」で起動。
+description: >
+  MarkdownのSWOT分析を Miro ボード上のテンプレートフレームに付箋として自動配置する。
+  SWOTマトリクスで選定された重要要因をピンク、その他を黄色で色分けし、クロスSWOT戦略も配置する。
+  SWOT分析を Miro で共有・議論したいとき、戦略検討をビジュアルに整理したいときに使う。
+  「SWOT を Miro に」「Miro に配置」「ボードに反映」といった文脈で積極的に起動すること。
 ---
 
 ## 使い方

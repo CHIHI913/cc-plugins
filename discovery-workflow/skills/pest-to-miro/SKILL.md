@@ -1,6 +1,10 @@
 ---
 name: pest-to-miro
-description: MarkdownのPEST分析をMiroボード上のテンプレートフレームに付箋として自動配置する。P（政治）/E（経済）/S（社会）/T（技術）の4セクションのテーブルをパースし、PEST要因評価に記載された重要要因をlight_pink、それ以外をlight_yellowで配置する。「/pest-to-miro」「miroにPESTを配置」「PESTをmiroに反映」で起動。
+description: >
+  MarkdownのPEST分析を Miro ボード上のテンプレートフレームに付箋として自動配置する。
+  PEST要因評価で重要と判定された要因をピンク、その他を黄色で色分けする。
+  PEST分析を Miro で共有・議論したいとき、外部環境分析をビジュアルに整理したいときに使う。
+  「PEST を Miro に」「Miro に配置」「ボードに反映」といった文脈で積極的に起動すること。
 ---
 
 ## 使い方
