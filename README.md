@@ -12,6 +12,29 @@
 claude plugin add github:CHIHI913/cc-plugins/discovery-workflow
 ```
 
+<details>
+<summary>スキル一覧（15スキル）</summary>
+
+| コマンド | 概要 |
+|----------|------|
+| `/discovery-workflow` | ワークフロー全体ガイド（各Phaseの目的・判断基準） |
+| `/lean-canvas` | リーンキャンバス作成 |
+| `/vpc` | バリュー・プロポジション・キャンバス作成 |
+| `/pest` | PEST分析（政治・経済・社会・技術） |
+| `/swot` | SWOT分析 + クロスSWOT戦略導出 |
+| `/competitor` | 競合分析（Who-What-How + 機能比較） |
+| `/stp` | STP分析 |
+| `/hypothesis` | 仮説立案（検証ポイント定義） |
+| `/interview` | インタビュースクリプト作成 |
+| `/user-type` | ユーザータイプ分析（2軸4象限） |
+| `/brand-concept` | ブランドコンセプト作成 |
+| `/lean-canvas-to-miro` | リーンキャンバス → Miro自動転記 |
+| `/vpc-to-miro` | VPC → Miro自動転記 |
+| `/pest-to-miro` | PEST分析 → Miro自動転記 |
+| `/swot-to-miro` | SWOT分析 → Miro自動転記 |
+
+</details>
+
 > 詳細は [discovery-workflow/README.md](./discovery-workflow/README.md) を参照
 
 ## 対象ユーザー
