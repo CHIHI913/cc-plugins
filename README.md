@@ -2,13 +2,7 @@
 
 [Claude Code](https://docs.anthropic.com/en/docs/claude-code) のプラグイン集です。プロダクトマネジメントや業務効率化のためのスキル・自動化ツールを提供します。
 
-## プラグイン一覧
-
-### [discovery-workflow](./discovery-workflow/)
-
-プロダクトの「誰に・何を・なぜ」を検証するディスカバリーフェーズを、Claude Code上で対話的に進めるプラグイン。リーンキャンバスからブランドコンセプトまで10種のフレームワークをテンプレートに沿って作成でき、作成したドキュメントはMiroボードへ自動転記できます。
-
-Claude Code 内で実行：
+## インストール方法
 
 マーケットプレイスを登録（初回のみ）：
 
@@ -17,6 +11,16 @@ Claude Code 内で実行：
 ```
 
 プラグインをインストール：
+
+```
+/plugin install <プラグイン名>@cc-plugins
+```
+
+## プラグイン一覧
+
+### [discovery-workflow](./discovery-workflow/)
+
+プロダクトの「誰に・何を・なぜ」を検証するディスカバリーフェーズを、Claude Code上で対話的に進めるプラグイン。リーンキャンバスからブランドコンセプトまで10種のフレームワークをテンプレートに沿って作成でき、作成したドキュメントはMiroボードへ自動転記できます。
 
 ```
 /plugin install discovery-workflow@cc-plugins
