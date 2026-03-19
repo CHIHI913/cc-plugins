@@ -26,9 +26,6 @@
 /plugin install discovery-workflow@cc-plugins
 ```
 
-<details>
-<summary>スキル一覧（15スキル）</summary>
-
 | コマンド | 概要 |
 |----------|------|
 | `/discovery-workflow` | ワークフロー全体ガイド（各Phaseの目的・判断基準） |
@@ -46,8 +43,6 @@
 | `/vpc-to-miro` | VPC → Miro自動転記 |
 | `/pest-to-miro` | PEST分析 → Miro自動転記 |
 | `/swot-to-miro` | SWOT分析 → Miro自動転記 |
-
-</details>
 
 > 詳細は [discovery-workflow/README.md](./discovery-workflow/README.md) を参照
 
