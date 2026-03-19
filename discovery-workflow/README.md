@@ -45,12 +45,6 @@ flowchart TD
 
     P7 -. "Fitしない場合" .-> P1
     P10 -. "Fitしない場合" .-> P8
-
-    style Why fill:#e8f4fd,stroke:#2196F3
-    style CWF fill:#fff3e0,stroke:#FF9800
-    style What fill:#e8f5e9,stroke:#4CAF50
-    style WWF fill:#fff3e0,stroke:#FF9800
-    style How fill:#fce4ec,stroke:#E91E63
 ```
 
 `/discovery-workflow` で全体の進め方・判断基準を確認できます。
