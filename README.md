@@ -10,17 +10,17 @@
 
 Claude Code 内で実行：
 
+マーケットプレイスを登録（初回のみ）：
+
 ```
-# 初回のみ：マーケットプレイスを登録
 /plugin marketplace add CHIHI913/cc-plugins
 ```
 
+プラグインをインストール：
+
 ```
-# プラグインをインストール
 /plugin install discovery-workflow@cc-plugins
 ```
-
-マーケットプレイスの登録は初回のみです。今後このリポジトリに別のプラグインが追加された場合も、`/plugin install` だけでインストールできます。
 
 <details>
 <summary>スキル一覧（15スキル）</summary>

@@ -37,17 +37,17 @@ How層
 
 Claude Code 内で実行：
 
+マーケットプレイスを登録（初回のみ）：
+
 ```bash
-# 初回のみ：マーケットプレイスを登録
 /plugin marketplace add CHIHI913/cc-plugins
 ```
 
+プラグインをインストール：
+
 ```bash
-# プラグインをインストール
 /plugin install discovery-workflow@cc-plugins
 ```
-
-マーケットプレイスの登録は初回のみです。2回目以降は `/plugin install` だけで済みます。
 
 ## スキル一覧（15スキル）
 
