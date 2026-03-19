@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](https://github.com/CHIHI913/cc-plugins/blob/main/LICENSE)
+
 # cc-plugins
 
 [Claude Code](https://docs.anthropic.com/en/docs/claude-code) のプラグイン集です。プロダクトマネジメントや業務効率化のためのスキル・自動化ツールを提供します。
