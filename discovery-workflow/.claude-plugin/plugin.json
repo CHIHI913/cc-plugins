@@ -1,0 +1,22 @@
+{
+  "name": "discovery-workflow",
+  "version": "1.0.0",
+  "description": "ディスカバリーフェーズ（リーンキャンバス〜ブランドコンセプト）のワークフローガイド・テンプレート・Miro自動転記を提供するClaude Codeプラグイン",
+  "author": {
+    "name": "Chihiro Sakai",
+    "email": "c_sakai@a-ssign.com"
+  },
+  "repository": "https://github.com/CHIHI913/cc-plugins",
+  "license": "MIT",
+  "keywords": [
+    "discovery",
+    "product-management",
+    "lean-canvas",
+    "vpc",
+    "pest",
+    "swot",
+    "stp",
+    "brand-concept",
+    "miro"
+  ]
+}
