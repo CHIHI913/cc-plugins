@@ -8,27 +8,49 @@
 
 ディスカバリーは以下のPhaseを順に進めます。各Phaseに対応するスキルがあり、対話的にドキュメントを作成していきます。
 
-```
-Why層
-  Phase 1  リーンキャンバス v1 ─── 全体俯瞰
-  Phase 2  VPC v1 ──────────── 課題と価値の初期仮説（関係者ブレスト）
-  Phase 3  PEST → SWOT → 競合分析 → STP ── プロダクト側調査（PdM単独）
-  Phase 4  VPC v2 → 仮説立案 ── 仮説の深化と検証ポイント定義
-  Phase 5  インタビュー ─────── ペイン・ゲイン検証（都度VPC更新）
-  Phase 6  ユーザータイプ分析 ── ユーザー理解の構造化
+```mermaid
+flowchart TD
+    subgraph Why["Why層"]
+        P1["Phase 1: リーンキャンバス v1\n全体俯瞰"]
+        P2["Phase 2: VPC v1\n課題と価値の初期仮説"]
+        P3["Phase 3: PEST → SWOT → 競合 → STP\nプロダクト側調査"]
+        P4["Phase 4: VPC v2 → 仮説立案\n仮説の深化と検証ポイント定義"]
+        P5["Phase 5: インタビュー\nペイン・ゲイン検証"]
+        P6["Phase 6: ユーザータイプ分析\nユーザー理解の構造化"]
+        P1 --> P2 --> P3 --> P4 --> P5 --> P6
+    end
 
-Core-Why Fit
-  Phase 7  ブランドコンセプト + リーンキャンバス v2
+    subgraph CWF["Core-Why Fit"]
+        P7["Phase 7: ブランドコンセプト\n+ リーンキャンバス v2"]
+    end
 
-What層
-  Phase 8  MVP作成
-  Phase 9  ソリューション検証
+    subgraph What["What層"]
+        P8["Phase 8: MVP作成"]
+        P9["Phase 9: ソリューション検証"]
+        P8 --> P9
+    end
 
-Why-What Fit
-  Phase 10 Fit確認 + リーンキャンバス v3（最終版）
+    subgraph WWF["Why-What Fit"]
+        P10["Phase 10: Fit確認\n+ リーンキャンバス v3"]
+    end
 
-How層
-  Phase 11 PRD作成
+    subgraph How["How層"]
+        P11["Phase 11: PRD作成"]
+    end
+
+    P6 --> P7
+    P7 --> P8
+    P9 --> P10
+    P10 --> P11
+
+    P7 -. "Fitしない場合" .-> P1
+    P10 -. "Fitしない場合" .-> P8
+
+    style Why fill:#e8f4fd,stroke:#2196F3
+    style CWF fill:#fff3e0,stroke:#FF9800
+    style What fill:#e8f5e9,stroke:#4CAF50
+    style WWF fill:#fff3e0,stroke:#FF9800
+    style How fill:#fce4ec,stroke:#E91E63
 ```
 
 `/discovery-workflow` で全体の進め方・判断基準を確認できます。
