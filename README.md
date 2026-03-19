@@ -8,8 +8,10 @@
 
 プロダクトの「誰に・何を・なぜ」を検証するディスカバリーフェーズを、Claude Code上で対話的に進めるプラグイン。リーンキャンバスからブランドコンセプトまで10種のフレームワークをテンプレートに沿って作成でき、作成したドキュメントはMiroボードへ自動転記できます。
 
-```bash
-claude plugin add github:CHIHI913/cc-plugins/discovery-workflow
+```
+# Claude Code 内で実行
+/plugin marketplace add CHIHI913/cc-plugins
+/plugin install discovery-workflow@CHIHI913-cc-plugins
 ```
 
 <details>

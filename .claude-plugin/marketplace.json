@@ -1,0 +1,12 @@
+{
+  "plugins": [
+    {
+      "name": "discovery-workflow",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/CHIHI913/cc-plugins.git",
+        "path": "discovery-workflow"
+      }
+    }
+  ]
+}

@@ -36,7 +36,9 @@ How層
 ## インストール
 
 ```bash
-claude plugin add github:CHIHI913/cc-plugins/discovery-workflow
+# Claude Code 内で実行
+/plugin marketplace add CHIHI913/cc-plugins
+/plugin install discovery-workflow@CHIHI913-cc-plugins
 ```
 
 ## スキル一覧（15スキル）
