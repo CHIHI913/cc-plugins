@@ -20,6 +20,8 @@
 
 ### [discovery-workflow](./discovery-workflow/)
 
+ワークフロー全体像・各スキルの使い方・前提条件は [discovery-workflow/README.md](./discovery-workflow/README.md) を参照してください。
+
 プロダクトの「誰に・何を・なぜ」を検証するディスカバリーフェーズを、Claude Code上で対話的に進めるプラグイン。リーンキャンバスからブランドコンセプトまで10種のフレームワークをテンプレートに沿って作成でき、作成したドキュメントはMiroボードへ自動転記できます。
 
 | コマンド | 概要 |
@@ -39,8 +41,6 @@
 | `/vpc-to-miro` | VPC → Miro自動転記 |
 | `/pest-to-miro` | PEST分析 → Miro自動転記 |
 | `/swot-to-miro` | SWOT分析 → Miro自動転記 |
-
-ワークフロー全体像・各スキルの使い方・前提条件は [discovery-workflow/README.md](./discovery-workflow/README.md) を参照してください。
 
 ## 対象ユーザー
 
