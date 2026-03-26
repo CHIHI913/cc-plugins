@@ -1,6 +1,6 @@
 {
   "name": "discovery-workflow",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "ディスカバリーフェーズ（リーンキャンバス〜ブランドコンセプト）のワークフローガイド・テンプレート・Miro自動転記を提供するClaude Codeプラグイン",
   "author": {
     "name": "Chihiro Sakai",
